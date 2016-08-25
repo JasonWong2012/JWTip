@@ -1,15 +1,14 @@
-Pod::Spec.new do |s|
+Pod::Spec.new do |spec|
 
-  s.name         = "JWTip"
-  s.version      = "0.0.1"
-  s.summary      = "JWTip for ios."
-  s.homepage     = "https://github.com/JasonWong2012/JWTip"
-  s.license      = "MIT"
-  s.author             = { "JasonWong" => "648838758@qq.com" }
-  s.platform     = :ios, "7.0"
-  s.source       = { :git => "https://github.com/JasonWong2012/JWTip.git", :tag => "0.0.1" }
-  s.source_files = 'Library/*'
-  s.framework  = "UIKit"
-  s.requires_arc = true
+  spec.name             = 'JWTip'
+  spec.version          = '0.0.1'
+  spec.license          = { :type => 'BSD' }
+  spec.homepage         = 'https://github.com/JasonWong2012/JWTip'
+  spec.authors          = { 'JasonWong' => '648838758@qq.com' }
+  spec.summary          = 'JWTip for ios.'
+  spec.source           = { :git => 'https://github.com/JasonWong2012/JWTip.git', :tag => '0.0.1' }
+  spec.source_files     = 'JWTip.h,m'
+  spec.framework        = 'SystemConfiguration'
+  spec.requires_arc     = true
 
 end
