@@ -1,13 +1,12 @@
-Pod::Spec.new do |spec|
-
-  spec.name             = 'JWTip'
-  spec.version          = '0.0.1'
-  spec.license          = { :type => 'MIT' }
-  spec.homepage         = 'https://github.com/JasonWong2012/JWTip'
-  spec.authors          = { 'JasonWong' => '648838758@qq.com' }
-  spec.summary          = 'JWTip for ios.'
-  spec.source           = { :git => 'https://github.com/JasonWong2012/JWTip.git', :tag => '0.0.1' }
-  spec.source_files     = 'JWTip.h,m'
-  spec.requires_arc     = true
-
+Pod::Spec.new do |s|
+  s.name         = "JWTip"
+  s.version      = "0.0.1"
+  s.summary      = "UI Tip"
+  s.homepage     = "https://github.com/JasonWong2012/JWTip"
+  s.license      = "MIT" 
+  s.author             = { "JasonWong" => "648838758@qq.com" }
+  s.social_media_url   = "http://weibo.com/exceptions"
+  s.source       = { :git => "https://github.com/JasonWong2012/JWTip.git", :tag => s.version }
+  s.source_files  = 'JWTip/*.{h,m}'
+  s.requires_arc = true
 end
