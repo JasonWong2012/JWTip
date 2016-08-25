@@ -9,4 +9,5 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/JasonWong2012/JWTip.git", :tag => s.version }
   s.source_files  = 'JWTip/*.{h,m}'
   s.requires_arc = true
+  s.framework = "UIKit"  
 end
