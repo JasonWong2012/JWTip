@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|  
-  s.name     = 'JWTip'  
+  s.name     = 'JWTipView’  
   s.version  = '0.0.1'  
   s.license  = 'MIT'  
   s.summary  = 'UI Tip'  
@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.author   = { 'JasonWong' => '648838758@qq.com' }  
   s.source   = { :git => 'https://github.com/JasonWong2012/JWTip.git', :tag => s.version }  
   s.platform = :ios    
-  s.source_files = 'JWTip/JWTip/*.{h,m}'  
+  s.source_files = 'JWTip/*.{h,m}'  
   s.framework = 'UIKit'  
   s.requires_arc = true    
 end
