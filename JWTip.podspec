@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|  
-  s.name     = 'JWTipView’  
+  s.name     = 'JWTip'  
   s.version  = '0.0.1'  
   s.license  = 'MIT'  
   s.summary  = 'UI Tip'  
