@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.author   = { 'JasonWong' => '648838758@qq.com' }  
   s.source   = { :git => 'https://github.com/JasonWong2012/JWTip.git', :tag => s.version }  
   s.platform = :ios    
-  s.source_files = 'JasonWong2012/JWTip/*.{h,m}'  
+  s.source_files = 'Pod/Classes/**/*'  
   s.resources = "JasonWong2012/JWTip/*.png"  
   s.framework = 'UIKit'  
   s.requires_arc = true    
